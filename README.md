@@ -15,7 +15,14 @@ all in one window. Ideal for beginners and for learning how basic IDEs work.
 - Run Java Programs – Execute compiled Java files without leaving the editor.  
 - Output Console – View compile errors or program output.  
 
-
+technologies and tools used are:
+Java Swing – For building the graphical user interface (GUI) including menus, text areas, and dialogs.
+Java AWT – For components like FileDialog, color chooser, and handling events.
+Java I/O (FileInputStream, FileOutputStream, BufferedReader/Writer) – For reading from and writing to files.
+Java Runtime / ProcessBuilder – For compiling and running Java programs from within the editor.
+JTextArea & JScrollPane – For code editing and output display with scrollable areas.
+Event Handling (ActionListener, KeyListener) – For menu actions and text changes.
+Java Date & Time API – For inserting current date and time in the editor.
 
 How to Use
 javac Editor2015.java
